@@ -1,0 +1,1 @@
+package com.smile.data;import com.smile.model.User;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepository extends JpaRepository<User, Long> {}

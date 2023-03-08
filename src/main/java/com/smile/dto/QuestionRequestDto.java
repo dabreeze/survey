@@ -1,0 +1,1 @@
+package com.smile.dto;import lombok.AllArgsConstructor;import lombok.Getter;import lombok.NoArgsConstructor;import lombok.Setter;@Setter@Getter@AllArgsConstructor@NoArgsConstructorpublic class QuestionRequestDto {    private String surveyId;    private String questionTitle;    private OptionRequestDto options;}
